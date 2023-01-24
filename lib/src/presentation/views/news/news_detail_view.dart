@@ -37,18 +37,18 @@ class _ContentView extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
-          Assets.images.news.akreditasi2022Small.image(),
+          Assets.baru.artikel1.image(),
           const Padding(
             padding: EdgeInsets.symmetric(horizontal: 24, vertical: 12),
             child: Text(
-              'Akreditasi RSUD Ngudi Waluyo Wlingi Lulus Dengan Predikat Paripurna',
+              'Masyarakat Umum Sudah Bisa Booster Kedua',
               style: TextStyle(fontWeight: FontWeight.w500),
             ),
           ),
           const Padding(
             padding: EdgeInsets.fromLTRB(24, 0, 24, 16),
             child: Text(
-              '07 November 2022',
+              '21 Januari 2023',
               style: TextStyle(
                 fontWeight: FontWeight.w400,
                 color: ThemeColors.greyCaption,
@@ -59,19 +59,15 @@ class _ContentView extends StatelessWidget {
           const Padding(
             padding: EdgeInsets.symmetric(horizontal: 24, vertical: 4),
             child: Text(
-              '''RSUD Ngudi Waluyo Wlingi kembali lulus akreditasi dengan predikat Paripurna . Penilaian dilakukan oleh komite akreditasi rumah sakit (KARS) pada tanggal 26,27 dan 28 Oktober 2022. Penilaian meliputi standar manajemen, standar medis dan standar keperawatan
+              '''Tidak perlu tunggu dapat tiket, masyarakat umum sudah bisa mendapatkan vaksinasi COVID-19 Booster kedua. Hal ini dilakukan sebagai upaya percepatan vaksinasi sekaligus meningkatkan proteksi masyarakat Indonesia dari COVID-19.
 
-Akreditasi rumah sakit bertujuan untuk meningkatan mutu pelayanan rumah sakit , meningkatkan  keselamatan pasien sehingga tercapai tata kelola rumah sakit dan tata kelola klinis yang baik, serta sebagai pelaksanaan program pembangunan  kesehatan nasional
+“Dalam satu sampai dua minggu kedepan, masyarakat usia lebih dari 18 tahun sudah dapat vaksin booster kedua tanpa menunggu tiket/undangan. Untuk pencatatan masih dilakukan manual sambil menunggu pcare dan peduli lindungi disiapkan” Ujar Juru Bicara Kementerian Kesehatan dr. Muhammad Syahril di Jakarta.
 
-Akreditasi tahun 2022 menggunakan standar akreditasi dari Kementerian Kesehatan (Kemenkes) yang digunakan dalam akreditasi sama untuk rumah sakit seluruh Indonesia
+Aturan ini tertuang dalam Surat Edaran Nomor HK.02.02/C/380/2023 Tentang Vaksinasi COVID-19 Dosis Booster Ke-2 Bagi kelompok Masyarakat Umum, yang ditetapkan oleh Dirjen Pencegahan dan Pengendalian penyakit Pada 20 Januari 2023.
 
-Tim akreditasi detail melakukan penilaian. Penunjang pelayanan seperti farmasi juga tak luput dari monitoring. Bahkan, hal-hal kecil misalnya penempatan sarana cuci tangan serta penerapannya juga menjadi catatan.
+Vaksinasi COVID-19 dosis booster kedua dapat diberikan kepada semua masyarakat umum (usia 18 tahun ke atas) mulai 24 Januari 2023.
 
-Tak hanya rumah sakit rujukan, RSUD Ngudi Waluyo Wlingi juga menjadi rumah sakit kelas B pendidikan. Sumber daya manusia (SDM) ini menjadi salah satu tantangan dalam proses akreditasi. rumah sakit harus memastikan semua  bisa menjalankan setiap standar pelayanan. menyatukan visi-misi untuk peningkatan mutu pelayanan. Semua individu harus bisa menjalankan setiap prosedur yang ada di rumah sakit
-
-Karena kekompakan dan komitmen bersama dalam hal pelayanan, RSUD Ngudi Waluyo kembali berhasil lulus akreditasi dengan predikat tertinggi, paripurna bintang 5. Ini merupakan capaian kali ketiga diganjar paripurna bintang 5.
-
-Direktur RSUD Ngudi Waluyo Wlingi , dr.Endah Woro Utami , MMRS menyampaikan ucapan syukur dan terima kasih kepada dewan pengawas, manajemen rumah sakit, tim pendukung fisik dan regulasi, kepala ruang, dan seluruh karyawan yang sudah berjuang bersama-sama dalam meraih predikat lulus Paripurna .''',
+Adapun jenis vaksin yang dapat digunakan adalah vaksin COVID-19 yang telah mendapat Persetujuan Penggunaan Dalam Kondisi Darurat atau Emergency Use Authorization (EUA) dari Badan Pengawas Obat dan Makanan (BPOM) dan memperhatikan vaksin yang ada.''',
               style: TextStyle(color: ThemeColors.greyCaption),
             ),
           ),

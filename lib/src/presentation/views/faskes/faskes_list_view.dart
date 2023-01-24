@@ -64,7 +64,7 @@ class _ContentView extends StatelessWidget {
           const SizedBox(height: 16),
           FaskesListItem(
             image: Assets.images.rs.rs1.path,
-            name: 'RSUD Srengat',
+            name: 'Rumah Sakit A',
             type: 'Rumah Sakit',
             rating: 4.7,
             distance: 1,
@@ -73,7 +73,7 @@ class _ContentView extends StatelessWidget {
           const Divider(indent: 20, endIndent: 20, color: Colors.grey),
           FaskesListItem(
             image: Assets.images.rs.rs2.path,
-            name: 'Poli Gigi Blitar',
+            name: 'Rumah Sakit B',
             type: 'Klinik',
             rating: 3.5,
             distance: 2,
@@ -82,7 +82,7 @@ class _ContentView extends StatelessWidget {
           const Divider(indent: 20, endIndent: 20, color: Colors.grey),
           FaskesListItem(
             image: Assets.images.rs.rs3.path,
-            name: 'RSUD Ngudi Waluyo Wlingi',
+            name: 'Rumah Sakit C',
             type: 'Rumah Sakit',
             rating: 2.9,
             distance: 3,

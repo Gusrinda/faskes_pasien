@@ -9,6 +9,7 @@ environment:
 dependencies:
   badges: ^2.0.3
   bloc: ^8.1.0
+  change_app_package_name: ^1.1.0
   country_icons: ^2.0.2
   dio: ^4.0.6
   dio_flutter_transformer:
@@ -25,14 +26,14 @@ dependencies:
       ref: main
   flutter:
     sdk: flutter
-  flutter_localizations:
-    sdk: flutter
   flutter_bloc: ^8.1.1
   flutter_hud:
     git:
       url: https://github.com/alann-maulana/flutter_hud
       ref: master
   flutter_linkify: ^5.0.2
+  flutter_localizations:
+    sdk: flutter
   flutter_multi_formatter: ^2.7.4
   flutter_rating_bar: ^4.0.1
   flutter_screenutil: ^5.5.4
@@ -53,12 +54,12 @@ dependencies:
   url_launcher: ^6.1.7
 
 dev_dependencies:
-  flutter_test:
-    sdk: flutter
 
   build_runner: ^2.2.0
   flutter_gen_runner: ^4.3.0
   flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
   freezed: ^2.1.0+1
   json_serializable: ^6.3.1
   retrofit_generator: ^4.0.1
@@ -76,6 +77,7 @@ flutter:
     - assets/images/rs/
     - assets/logo/
     - assets/logo/bank/
+    - assets/baru/
 
 flutter_gen:
   output: lib/src/core/assets

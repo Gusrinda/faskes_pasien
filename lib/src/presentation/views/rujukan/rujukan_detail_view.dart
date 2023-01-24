@@ -25,7 +25,7 @@ class _RujukanDetailViewState extends State<RujukanDetailView> {
           children: [
             const LabelValueVertical(
               label: 'Fasilitas Kesehatan',
-              value: 'RSUD Srengat',
+              value: 'Rumah Sakit A',
             ),
             const SizedBox(height: 16),
             const LabelValueVertical(
@@ -50,11 +50,11 @@ class _RujukanDetailViewState extends State<RujukanDetailView> {
             const SizedBox(height: 16),
             const LabelValueVertical(
               label: 'Fasilitas kesehatan yang dirujuk',
-              value: 'RSUD Srengat',
+              value: 'Rumah Sakit A',
             ),
             const SizedBox(height: 16),
             const Text(
-              'Jl. Raya Dandong, Dandong, Kec. Srengat, Kabupaten Blitar, Jawa Timur 66152',
+              'Jl. Bunga Sepatu, Indonesia',
               style: TextStyle(
                 fontWeight: FontWeight.w400,
                 fontSize: 12,
@@ -62,7 +62,7 @@ class _RujukanDetailViewState extends State<RujukanDetailView> {
               ),
             ),
             const Text(
-              'Telp. 0333421118',
+              'Telp. (031) 71712463',
               style: TextStyle(
                 fontWeight: FontWeight.w400,
                 fontSize: 12,

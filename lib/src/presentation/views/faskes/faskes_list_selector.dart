@@ -58,18 +58,17 @@ class _ContentView extends StatelessWidget {
           ),
           const SizedBox(height: 16),
           const FaskesItemTile(
-            name: 'RSUD Srengat',
-            address: 'Jl. Raya Dandong, Dandong, Kec. Srengat, Kabupaten Blitar'
-                ' Jawa Timur 66152',
-            phone: '(0342) 5651555',
+            name: 'Rumah Sakit A',
+            address: 'Jl. Bunga Sepatu, Indonesia',
+            phone: '(031) 71712463',
             rating: 5,
           ),
           const Divider(indent: 20, endIndent: 20, color: Colors.grey),
           const FaskesItemTile(
-            name: 'RSUD Ngudi Waluyo Wlingi',
+            name: 'Rumah Sakit B',
             address:
-                'Jl. Dokter Sucipto No.5, Beru, Kec. Wlingi, Kabupaten Blitar, Jawa Timur 66184',
-            phone: '(0342) 691006',
+                'Jl. Mawar Melati, Indonesia',
+            phone: '(031) 71712573',
             rating: 5,
           ),
         ],

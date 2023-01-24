@@ -58,28 +58,28 @@ class _ContentView extends StatelessWidget {
           ),
           const SizedBox(height: 16),
           RujukanItemTile(
-            name: 'RSUD Srengat',
+            name: 'Rumah Sakit A',
             address:
-                'Jl. Raya Dandong, Dandong, Kec. Srengat, Kabupaten Blitar, Jawa Timur 66152',
-            phone: '(0342) 5651555',
+                'Jl. Bunga Sepatu, Indonesia',
+            phone: '(031) 71712463',
             expired: DateTime.now().add(const Duration(days: 2)),
             onTap: () => handleTap(context),
           ),
           const Divider(indent: 20, endIndent: 20, color: Colors.grey),
           RujukanItemTile(
-            name: 'RSUD Srengat',
+            name: 'Rumah Sakit B',
             address:
-                'Jl. Raya Dandong, Dandong, Kec. Srengat, Kabupaten Blitar, Jawa Timur 66152',
-            phone: '(0342) 5651555',
+                'Jl. Mawar Melati, Indonesia',
+            phone: '(031) 71712573',
             expired: DateTime(2022, 3, 9),
             onTap: () => handleTap(context),
           ),
           const Divider(indent: 20, endIndent: 20, color: Colors.grey),
           RujukanItemTile(
-            name: 'RSUD Ngudi Waluyo Wlingi',
+              name: 'Rumah Sakit A',
             address:
-                'Jl. Dokter Sucipto No.5, Beru, Kec. Wlingi, Kabupaten Blitar, Jawa Timur 66184',
-            phone: '(0342) 691006',
+                'Jl. Bunga Sepatu, Indonesia',
+            phone: '(031) 71712463',
             expired: DateTime(2022, 3, 7),
             onTap: () => handleTap(context),
           ),

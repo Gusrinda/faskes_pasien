@@ -10,8 +10,8 @@ class FastkesLogo extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
       child: Hero(
-        tag: Assets.logo.fastkes.keyName,
-        child: Assets.logo.fastkes.image(width: width),
+        tag: Assets.baru.logoBaru.keyName,
+        child: Assets.baru.logoBaru.image(width: width),
       ),
     );
   }

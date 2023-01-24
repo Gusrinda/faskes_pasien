@@ -43,13 +43,13 @@ class EmergencyView extends StatelessWidget {
             ),
             SizedBox(height: 12.sp),
             const _CallTile(
-              title: 'RSUD Srengat',
-              phone: '+62342-5651555',
+              title: 'Rumah Sakit A',
+              phone: '+6231-71712923',
             ),
             SizedBox(height: 12.sp),
             const _CallTile(
-              title: 'RSUD Ngudi Waluyo Wlingi',
-              phone: '+62342-691006',
+              title: 'Rumah Sakit B',
+              phone: '+6231-7729832',
             ),
             SizedBox(height: 12.sp),
             const _CallTile(

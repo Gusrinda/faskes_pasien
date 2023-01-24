@@ -114,7 +114,7 @@ class _VerificationStatusViewState extends State<VerificationStatusView> {
                                 style: TextStyle(fontSize: 12.sp),
                               ),
                               Text(
-                                'RSUD Srengat',
+                                'Rumah Sakit A',
                                 style: TextStyle(fontSize: 10.sp),
                               ),
                             ],

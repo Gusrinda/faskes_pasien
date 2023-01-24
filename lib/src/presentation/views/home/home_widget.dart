@@ -41,18 +41,18 @@ class OnlineAppointmentsCard extends StatelessWidget {
                       ),
                     ),
                     const SizedBox(height: 16),
-                    Text(
-                      '- Hj. Rini Syarifah, A.Md',
-                      style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 12.sp,
-                      ),
-                    ),
+                    // Text(
+                    //   '- Hj. Rini Syarifah, A.Md',
+                    //   style: TextStyle(
+                    //     color: Colors.white,
+                    //     fontSize: 12.sp,
+                    //   ),
+                    // ),
                   ],
                 ),
               ),
               SizedBox(width: 32.sp),
-              Assets.images.bupati.image(height: 144.sp),
+              Assets.baru.bannerDepan.image(height: 144.sp),
             ],
           ),
         ),
@@ -82,7 +82,7 @@ class TodayScheduleCard extends StatelessWidget {
               children: const [
                 TitleLabel('dr. Kartika Apshanti, Sp.JP'),
                 SizedBox(height: 8),
-                RsSubtitleLabel('RSUD Srengat'),
+                RsSubtitleLabel('Rumah Sakit A'),
                 SizedBox(height: 8),
                 GreenChip('Pukul 08:00'),
               ],
@@ -133,7 +133,7 @@ class ActiveTransactionCard extends StatelessWidget {
               children: const [
                 TitleLabel('Alfiani, ada tagihan obat!'),
                 SizedBox(height: 8),
-                RsSubtitleLabel('RSUD Srengat'),
+                RsSubtitleLabel('Rumah Sakit A'),
                 SizedBox(height: 8),
                 ColorChip('Rp. 50.000'),
               ],

@@ -16,18 +16,14 @@ class HomeNewsGridView extends StatelessWidget {
         scrollDirection: Axis.horizontal,
         children: [
           HomeNewsWidget(
-            image: Assets.images.news.akreditasi2022Small.path,
+            image: Assets.baru.artikel1.path,
             title:
-                'Akreditasi RSUD Ngudi Waluyo Wlingi Lulus Dengan Predikat Paripurna',
+                'Masyarakat Umum Sudah Bisa Booster Kedua',
           ),
           HomeNewsWidget(
-            image: Assets.images.news.monevsisruj2.path,
-            title: 'Monitoring & Evaluasi Sistem Rujukan Rumah Sakit',
-          ),
-          HomeNewsWidget(
-            image: Assets.images.news.stuba2Small.path,
+            image: Assets.baru.artikel2.path,
             title:
-                'Kunjungan Studi Tiru dari RSUD dr. H.Slamet Martodirdjo Pamekasan',
+                'Waspada, Campak jadi Komplikasi Sebabkan Penyakit Berat',
           ),
         ],
       ),

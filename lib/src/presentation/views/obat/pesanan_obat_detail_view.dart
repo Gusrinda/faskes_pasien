@@ -36,7 +36,7 @@ class _PesananObatDetailViewState extends State<PesananObatDetailView> {
             const SizedBox(height: 16),
             const LabelValueVertical(
               label: 'Fasilitas Kesehatan',
-              value: 'RSUD Srengat',
+              value: 'Rumah Sakit A',
             ),
             const SizedBox(height: 16),
             const LabelValueVertical(

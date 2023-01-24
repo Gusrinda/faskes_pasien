@@ -1,7 +1,7 @@
 {
   "file_generated_by": "FlutterFire CLI",
   "purpose": "FirebaseAppID & ProjectID for this Firebase app in this directory",
-  "GOOGLE_APP_ID": "1:869112136240:ios:6a33e63126e0ceadcf23f5",
-  "FIREBASE_PROJECT_ID": "blitar-sehat",
-  "GCM_SENDER_ID": "869112136240"
+  "GOOGLE_APP_ID": "1:722376118960:ios:a62266b77a4ca402126175",
+  "FIREBASE_PROJECT_ID": "rs-sehat",
+  "GCM_SENDER_ID": "722376118960"
 }

@@ -53,11 +53,11 @@ class _PaymentDetailViewState extends State<PaymentDetailView> {
             SizedBox(height: 16),
             LabelValueVertical(
               label: 'Fasilitas Kesehatan',
-              value: 'RSUD Srengat',
+              value: 'Rumah Sakit A',
             ),
             SizedBox(height: 16),
             Text(
-              'Jl. Raya Dandong, Dandong, Kec. Srengat, Kabupaten Blitar, Jawa Timur 66152',
+              'Jl. Bunga Sepatu, Indonesia',
               style: TextStyle(
                 fontWeight: FontWeight.w400,
                 fontSize: 12,
@@ -65,7 +65,7 @@ class _PaymentDetailViewState extends State<PaymentDetailView> {
               ),
             ),
             Text(
-              'Telp. (0342) 5651555',
+              'Telp. (031) 71719283',
               style: TextStyle(
                 fontWeight: FontWeight.w400,
                 fontSize: 12,

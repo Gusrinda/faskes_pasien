@@ -10,7 +10,7 @@ generate:
 asset-generate:
 	fluttergen -c pubspec.yaml
 apk:
-	fvm spawn 3.3.4 build apk --split-per-abi --target-platform=android-arm --release -v
-	mv $(PATH_APK)/app-armeabi-v7a-release.apk $(PATH_APK_GOOGLE)/$(APP_NAME)-v$(VERSION)-$(DATE_NOW).apk
+	flutter build apk --split-per-abi --target-platform=android-arm --release -v
+	mv $(PATH_APK)/app-armeabi-v7a-release.apk $(PATH_APK)/$(APP_NAME)-v$(VERSION)-$(DATE_NOW).apk
 apk-open: apk
 	open $(PATH_APK_GOOGLE)/

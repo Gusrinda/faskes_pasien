@@ -49,10 +49,10 @@ class _ResepViewState extends State<ResepView> {
               ),
             ),
             const SizedBox(height: 2),
-            const RsSubtitleLabel('RSUD Srengat', big: true),
+            const RsSubtitleLabel('Rumah Sakit A', big: true),
             const SizedBox(height: 8),
             const Text(
-              'Jl. Raya Dandong, Dandong, Kec. Srengat, Kabupaten Blitar, Jawa Timur 66152',
+              'Jl. Bunga Sepatu, Indonesia',
               style: TextStyle(
                 fontWeight: FontWeight.w400,
                 fontSize: 12,
@@ -60,7 +60,7 @@ class _ResepViewState extends State<ResepView> {
               ),
             ),
             const Text(
-              'Telp. (0342) 5651555',
+              'Telp. (031) 71719283',
               style: TextStyle(
                 fontWeight: FontWeight.w400,
                 fontSize: 12,

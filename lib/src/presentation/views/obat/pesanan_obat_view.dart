@@ -73,7 +73,7 @@ class _ContentView extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           const Text(
-                            'RSUD Srengat',
+                            'Rumah Sakit A',
                             style: TextStyle(color: Colors.white),
                           ),
                           const SizedBox(height: 8),
@@ -120,13 +120,13 @@ class _ContentView extends StatelessWidget {
           ),
           const HeaderLabel('Riwayat Pesanan'),
           PesananObatTile(
-            rs: 'RSUD Srengat',
+            rs: 'Rumah Sakit A',
             timestamp: DateTime(2022, 3, 9),
             status: 'Sudah Diambil',
             onTap: () => handleDetail(context),
           ),
           PesananObatTile(
-            rs: 'RSUD Ngudi Waluyo Wlingi',
+            rs: 'Rumah Sakit B',
             timestamp: DateTime(2022, 3, 4),
             status: 'Sudah Diambil',
             onTap: () => handleDetail(context),

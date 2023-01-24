@@ -45,7 +45,7 @@ class _ContentView extends StatelessWidget {
               children: [
                 const Expanded(
                   child: Text(
-                    'RSUD Srengat',
+                    'Rumah Sakit A',
                     style: TextStyle(fontWeight: FontWeight.w500),
                   ),
                 ),
@@ -118,7 +118,7 @@ class _ContentView extends StatelessWidget {
                 SizedBox(width: 16),
                 Expanded(
                   child: Text(
-                    'Jl. Raya Dandong, Dandong, Kec. Srengat, Kabupaten Blitar, Jawa Timur 66152',
+                    'Jl. Bunga Sepatu, Indonesia',
                     style: TextStyle(color: ThemeColors.greyCaption),
                   ),
                 )
@@ -138,7 +138,7 @@ class _ContentView extends StatelessWidget {
                 SizedBox(width: 16),
                 Expanded(
                   child: Text(
-                    '(0342) 5651555',
+                    '(031) 71719283',
                     style: TextStyle(color: ThemeColors.greyCaption),
                   ),
                 )
@@ -158,7 +158,7 @@ class _ContentView extends StatelessWidget {
                 SizedBox(width: 16),
                 Expanded(
                   child: Text(
-                    'rsudsrengat@blitarkab.go.id',
+                    'rsuA@kab.go.id',
                     style: TextStyle(color: ThemeColors.greyCaption),
                   ),
                 )

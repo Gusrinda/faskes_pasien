@@ -9,6 +9,24 @@
 
 import 'package:flutter/widgets.dart';
 
+class $AssetsBaruGen {
+  const $AssetsBaruGen();
+
+  /// File path: assets/baru/artikel1.jpg
+  AssetGenImage get artikel1 => const AssetGenImage('assets/baru/artikel1.jpg');
+
+  /// File path: assets/baru/artikel2.jpg
+  AssetGenImage get artikel2 => const AssetGenImage('assets/baru/artikel2.jpg');
+
+  /// File path: assets/baru/banner-depan.png
+  AssetGenImage get bannerDepan =>
+      const AssetGenImage('assets/baru/banner-depan.png');
+
+  /// File path: assets/baru/logo_baru.png
+  AssetGenImage get logoBaru =>
+      const AssetGenImage('assets/baru/logo_baru.png');
+}
+
 class $AssetsIconsGen {
   const $AssetsIconsGen();
 
@@ -287,6 +305,7 @@ class $AssetsLogoBankGen {
 class Assets {
   Assets._();
 
+  static const $AssetsBaruGen baru = $AssetsBaruGen();
   static const $AssetsIconsGen icons = $AssetsIconsGen();
   static const $AssetsImagesGen images = $AssetsImagesGen();
   static const $AssetsLogoGen logo = $AssetsLogoGen();

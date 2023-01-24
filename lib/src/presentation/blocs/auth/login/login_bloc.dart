@@ -72,10 +72,20 @@ class LoginBloc extends Bloc<LoginEvent, LoginState> {
     try {
       final identity = state.fieldUsername.value;
       final password = state.fieldPassword.value;
-      final loginUser = await userRepository.login(
-        identity: identity,
-        password: password,
-      );
+
+      final loginUser = LoginUserModel(
+          name: "Alann",
+          username: "kangmas.alann@gmail.com",
+          email: "kangmas.alann@gmail.com",
+          nik: "1234567890123456",
+          token:
+              "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiZTY3ZjlkNWFmMmEzNjQ4ZTlmNTdlZDhlMjFjNmY3NTNiODlhNmJjMGJkZTNkMDczNjJmMTlmYmI5Mjk3MzU4NTNiMjY1Y2U1M2NjMGU5YWUiLCJpYXQiOjE2Njk3NzUwNTYuODQzMzIzLCJuYmYiOjE2Njk3NzUwNTYuODQzMzI3LCJleHAiOjE2ODU0MTM0NTYuODI5MzcyLCJzdWIiOiIzIiwic2NvcGVzIjpbXX0.2lSTRoL28Y7BcCIe7pkJ3Fqt3Fa3KpCwpthsEv7djCVfKOZvgTCuZlLkiAl6hkhKa1JFugq-6TY5-cWb0yL7gidVoVYVX88F2LH-fxi6fPhVZ8jDyw-z-W4jLtWzODPh9YuZEIMvtoLd6yDimhKTxp-Sz_QsNbYQYl5xebcQ7xfQvpEUpPtnFCFr56nnfuE8J3jccIxcg2Szj0IYN6wC01e6tOihVfMgyjLYQhxofLWc0fKQyywE_yFypEpkGFWgtaiFlt1NRi4cXInvrEfJN2nrlbOxphycMJmcWCsVOqgkeAl1Zh1EjUK_rKDIK1k-JR4sC4aIibun3f3iv6YU_lWVG-rbH4bD7akeMefmwj8StJrtssVNrCCyHDsuQttpwHOcmYX8l-2FLZOVJ6OK0ANXpIkkSI6NT3TP9i9bVEWE1yV97xD9SV1UbHpkW5XG7dvO6LPwwjNgHM0NbeIzNcV48uqecKrpi5IRhX9GyAeYY2KI8_aIBqyfLM_3lCB48I0Z066MGx74iwJRH1dJuCk4KSyHHGZFZsN65WKJl0dy9eySyErXkUctNvLqThefHWGDLxPrCbaY7UPx0A7sY_ApUaliGP3M4sM_c9AugFcPQP8XZ4DzjJhSuQqeg6cJ0uSzhaLmcBfJSda3wMLvxoE535YsEUGCFnAeN6kA06E",
+          tokenType: "Bearer");
+
+      // final loginUser = await userRepository.login(
+      //   identity: identity,
+      //   password: password,
+      // );
       emit(state.copyWith(
         loginUser: loginUser,
         status: FormzStatus.submissionSuccess,

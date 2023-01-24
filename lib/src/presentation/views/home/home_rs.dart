@@ -15,12 +15,12 @@ class HomeRsGridView extends StatelessWidget {
         children: [
           HomeRsWidget(
             image: Assets.images.rs.rs1.path,
-            rs: 'RSUD Srengat',
+            rs: 'Rumah Sakit A',
             rsType: 'Rumah Sakit',
           ),
           HomeRsWidget(
             image: Assets.images.rs.rs2.path,
-            rs: 'RSUD Ngudi Waluyo Wlingi',
+            rs: 'Rumah Sakit B',
             rsType: 'Rumah Sakit',
           ),
         ],

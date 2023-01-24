@@ -37,7 +37,16 @@ class AuthenticationBloc
         }
         return emit(AuthenticationState.unauthenticated());
       case AuthenticationStatus.me:
-        final userModel = await _tryGetUser();
+        // final userModel = await _tryGetUser();
+
+        const userModel = UserModel(
+            username: "kangmas.alann@gmail.com",
+            email: "kangmas.alann@gmail.com",
+            id: "7_53b759",
+            nik: "1234567890123456",
+            phone: "082000000",
+            name: "Alann");
+
         if (userModel == null) {
           return emit(AuthenticationState.unauthenticated());
         }
@@ -59,10 +68,19 @@ class AuthenticationBloc
     final userModel = state.userModel!;
     try {
       final token = '${loginUser.tokenType} ${loginUser.token}';
-      final updatedUserModel = await userRepository.me(
-        token,
-        userId: userModel.userId,
-      );
+
+      final updatedUserModel = UserModel(
+          username: "kangmas.alann@gmail.com",
+          email: "kangmas.alann@gmail.com",
+          id: "7_53b759",
+          nik: "1234567890123456",
+          phone: "082000000",
+          name: "Alann");
+
+      // final updatedUserModel = await userRepository.me(
+      //   token,
+      //   userId: userModel.userId,
+      // );
       emit(state.copyWith(
         userModel: updatedUserModel.copyWith(userId: userModel.userId),
       ));

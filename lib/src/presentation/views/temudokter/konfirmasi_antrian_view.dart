@@ -73,7 +73,7 @@ class _KonfirmasiAntrianViewState extends State<KonfirmasiAntrianView> {
                               TextStyle(fontSize: 12.sp, color: Colors.white),
                         ),
                         Text(
-                          'RSUD Srengat',
+                          'Rumah Sakit A',
                           style: TextStyle(
                             fontSize: 10.sp,
                             color: Colors.white,

@@ -50,21 +50,20 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyC4KBcvty3bsASSr668ZfEIvlvL-unvdlw',
-    appId: '1:869112136240:android:6b9da82a5db82cb7cf23f5',
-    messagingSenderId: '869112136240',
-    projectId: 'blitar-sehat',
-    storageBucket: 'blitar-sehat.appspot.com',
+    apiKey: 'AIzaSyADumN3pkr4lnbUwTBRLkHG6BY6N0ZfRFw',
+    appId: '1:722376118960:android:c4c137b8ee482112126175',
+    messagingSenderId: '722376118960',
+    projectId: 'rs-sehat',
+    storageBucket: 'rs-sehat.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyATAUYcxnDAmpSSeew695HzdhlcVbed5ec',
-    appId: '1:869112136240:ios:6a33e63126e0ceadcf23f5',
-    messagingSenderId: '869112136240',
-    projectId: 'blitar-sehat',
-    storageBucket: 'blitar-sehat.appspot.com',
-    androidClientId: '869112136240-70r8vjejf7u82k549tlb7iap1f9jbtib.apps.googleusercontent.com',
-    iosClientId: '869112136240-17gc8pju46vf667c7d9t6ht2akrquj24.apps.googleusercontent.com',
+    apiKey: 'AIzaSyDS-XxLOF3a_IHUFpD77zWFz7WCDW76J8U',
+    appId: '1:722376118960:ios:a62266b77a4ca402126175',
+    messagingSenderId: '722376118960',
+    projectId: 'rs-sehat',
+    storageBucket: 'rs-sehat.appspot.com',
+    iosClientId: '722376118960-6ljdm4olgkh88v7b3msh4qtoaj3nsb4v.apps.googleusercontent.com',
     iosBundleId: 'com.blitarsehat.pasien',
   );
 }

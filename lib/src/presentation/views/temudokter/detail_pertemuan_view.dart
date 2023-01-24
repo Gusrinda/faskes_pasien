@@ -5,6 +5,8 @@ import 'package:pasien/src/presentation/widgets/label_value_widget.dart';
 import 'package:pasien/src/presentation/widgets/separator_widget.dart';
 import 'package:qr_flutter/qr_flutter.dart';
 
+import '../home/dashboard_view.dart';
+
 class DetailPertemuanView extends StatefulWidget {
   static const String routeName = '/janji-temu-dokter/poli/pertemuan/detail';
   const DetailPertemuanView({Key? key}) : super(key: key);
@@ -105,7 +107,7 @@ class _DetailPertemuanViewState extends State<DetailPertemuanView> {
                     const SizedBox(height: 16),
                     const LabelValueVertical(
                       label: 'Fasilitas Kesehatan',
-                      value: 'RSUD Srengat',
+                      value: 'Rumah Sakit A',
                     ),
                     const SizedBox(height: 16),
                     const LabelValueVertical(
@@ -141,7 +143,12 @@ class _DetailPertemuanViewState extends State<DetailPertemuanView> {
               ),
               const SizedBox(height: 16),
               ElevatedButton(
-                onPressed: () {},
+                onPressed: () {
+                         Navigator.popUntil(
+                    context,
+                    (route) => route.settings.name == DashboardView.routeName,
+                  );
+                },
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Colors.white,
                   foregroundColor: Theme.of(context).primaryColor,

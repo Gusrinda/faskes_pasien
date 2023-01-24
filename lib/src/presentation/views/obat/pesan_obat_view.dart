@@ -56,10 +56,10 @@ class _ContentView extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
-          const RsSubtitleLabel('RSUD Srengat', big: true),
+          const RsSubtitleLabel('Rumah Sakit A', big: true),
           const SizedBox(height: 8),
           const Text(
-            'Jl. Raya Dandong, Dandong, Kec. Srengat, Kabupaten Blitar, Jawa Timur 66152',
+            'Jl. Bunga Sepatu, Indonesia',
             style: TextStyle(
               fontWeight: FontWeight.w400,
               fontSize: 12,
@@ -67,7 +67,7 @@ class _ContentView extends StatelessWidget {
             ),
           ),
           const Text(
-            'Telp : -',
+            'Telp : (031) 71719283',
             style: TextStyle(
               fontWeight: FontWeight.w400,
               fontSize: 12,
