@@ -1,0 +1,81 @@
+name: pasien
+description: A new Flutter project.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.1 <3.0.0"
+
+dependencies:
+  badges: ^2.0.3
+  bloc: ^8.1.0
+  country_icons: ^2.0.2
+  dio: ^4.0.6
+  dio_flutter_transformer:
+    git:
+      url: https://github.com/alann-maulana/dio_flutter_transformer
+      ref: feature/null-safety
+  dotted_border: ^2.0.0+2
+  equatable: ^2.0.5
+  firebase_core: ^1.17.0
+  firebase_messaging: ^11.4.0
+  flimer:
+    git:
+      url: https://github.com/alann-maulana/flimer
+      ref: main
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_bloc: ^8.1.1
+  flutter_hud:
+    git:
+      url: https://github.com/alann-maulana/flutter_hud
+      ref: master
+  flutter_linkify: ^5.0.2
+  flutter_multi_formatter: ^2.7.4
+  flutter_rating_bar: ^4.0.1
+  flutter_screenutil: ^5.5.4
+  formz: ^0.4.1
+  freezed_annotation: ^2.1.0
+  google_fonts: ^3.0.1
+  hydrated_bloc: ^9.0.0-dev.3
+  iconly: ^1.0.1
+  intl: ^0.17.0
+  json_annotation: ^4.6.0
+  path_provider: ^2.0.11
+  pin_code_fields: ^7.4.0
+  pretty_dio_logger: ^1.2.0-beta-1
+  provider: ^6.0.3
+  qr_flutter: ^4.0.0
+  retrofit: ^3.0.1+1
+  timelines: ^0.1.0
+  url_launcher: ^6.1.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  build_runner: ^2.2.0
+  flutter_gen_runner: ^4.3.0
+  flutter_lints: ^2.0.0
+  freezed: ^2.1.0+1
+  json_serializable: ^6.3.1
+  retrofit_generator: ^4.0.1
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/icons/
+    - assets/icons/home/
+    - assets/icons/layanan/
+    - assets/icons/poli/
+    - assets/images/
+    - assets/images/news/
+    - assets/images/rs/
+    - assets/logo/
+    - assets/logo/bank/
+
+flutter_gen:
+  output: lib/src/core/assets
